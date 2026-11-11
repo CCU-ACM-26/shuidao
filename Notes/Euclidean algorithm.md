@@ -49,4 +49,4 @@ int main(){
 }
 ```
 
-最大公约数*最小公倍数=m \times n
+最大公约数 \times 最小公倍数=m \times n
