@@ -17,17 +17,36 @@
 ## 程序设计
 程序设计
 ```
-#include <stdio.h>
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+
 int main(){
-int m,n,r;
-scanf("%d,%d",&m,&n);
-if(m<n){r=m;m=n;n=r;}
-while(r!=0){
-m=n;n=r;r=m%n;
-]
-printf("最大公约数为%d\n",n);
-return 0;
+    ll a, b, r,gcd, lcm,l1, l2;
+    ll yu = 1; 
+    scanf("%lld %lld", &a, &b);
+    l1 = a; 
+    l2 = b;
+
+    if(a < b){
+        r = a;
+        a = b;
+        b = r;
+    }
+
+    while (yu != 0)
+    {
+        yu = a % b;
+        a = b;
+        b = yu;
+    }
+
+    gcd = a;           
+    lcm = l1 / gcd * l2;
+
+    printf("%lld %lld\n", gcd, lcm);
+    return 0;
 }
 ```
 
-** 最大公约数*最小公倍数=m \times n **
+最大公约数*最小公倍数=m \times n
