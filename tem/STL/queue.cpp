@@ -12,5 +12,5 @@ int main(){
     cout<<que.size();
     cout<<que.size();
     cout<<que.empty();
-    //
+    //queue 也没有迭代器
 }
