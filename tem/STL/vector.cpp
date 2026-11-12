@@ -31,4 +31,6 @@ int main(){
         cout<<ele<<endl;
     }
     //在main中用int a[1000000]；容易爆栈
+
+    //迭代器看notes的Vector迭代器.md
 }

@@ -13,4 +13,5 @@ int main(){
     cout<<stk.size();
     cout<<stk.empty();
     //不可访问内部元素！
+    //stack没有迭代器
 }
