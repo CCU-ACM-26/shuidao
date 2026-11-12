@@ -1,0 +1,25 @@
+# C/C++ 编译结果
+*.exe
+*.o
+*.obj
+*.out
+
+# 调试文件
+debug.txt
+temp.txt
+
+# 编辑器配置
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# CMake
+build/
+cmake-build-*/
+
+# CPH (Competitive Programming Helper)
+.cph/
+*.cph
